@@ -1,11 +1,11 @@
 import './App.css';
-import State from "./components/State";
+import Counter from "./components/State/Counter";
 
 function App() {
   return (
     <div className="App">
       <div>
-        <State />
+        <Counter />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Counter from "./components/State/Counter";
 import CustomStepCounter from "./components/State/CustomStepCounter";
 import LazyCounter from "./components/State/LazyCounter";
 import EffectsCounter from "./components/Effects/Counter";
+import EventListener from "./components/Effects/EventListener";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <CustomStepCounter />
         <LazyCounter />
         <EffectsCounter />
+        <EventListener />
       </div>
     </div>
   );

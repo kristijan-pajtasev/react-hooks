@@ -9,6 +9,10 @@ function ConditionalEffects() {
         console.log("updated first counter")
     }, [firstCounter]);
 
+    useEffect(() => {
+        console.log("updated first counter")
+    }, [secondCounter]);
+
     return (
         <div>
             <Counter onChange={setFirstCounter} />
